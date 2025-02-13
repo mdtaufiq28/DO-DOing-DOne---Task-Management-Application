@@ -153,18 +153,18 @@ const Home = (props) => {
                     <button onClick={()=>{
                         setIsFilterWindowOpen(!isFilterWindowOpen);
                     }} className='w-11 hover:bg-gray-200 p-2 rounded-full duration-1000'>
-                        <img src='assets/icons/filter-icon.svg' className='w-20'></img>
+                        <img src='assets/filter-icon.svg' className='w-20'></img>
                     </button>
 
                     <div className='flex items-center gap-x-6'>
                         <button className='w-11 hover:bg-gray-200 p-2 rounded-full duration-1000' onClick={()=>{
                             setIsNoteOpen('true')
                         }}>
-                            <img src='assets/icons/add-item-icon.svg' className='w-20'></img>
+                            <img src='assets/add-item-icon.svg' className='w-20'></img>
                         </button>
 
                         <button onClick={changeTheme} className='w-10 hover:bg-gray-200 duration-1000 rounded-full p-2'>
-                            <img className='duration-1000' src={`/assets/icons/${theme==='light' ? 'dark-mode-icon.svg'  : 'day-mode-icon.svg'}`}></img>
+                            <img className='duration-1000' src={`assets/${theme==='light' ? 'dark-mode-icon.svg'  : 'day-mode-icon.svg'}`}></img>
                         </button>
                     </div>
 
