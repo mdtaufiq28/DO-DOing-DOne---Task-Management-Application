@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import NavBar from './NavBar';
 import NoteInput from './NoteInput';
 import Note from './Note';
