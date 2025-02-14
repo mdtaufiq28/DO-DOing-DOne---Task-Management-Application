@@ -8,7 +8,7 @@ const IntroPage = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-y-14 font-raleway dark:bg-black h-full dark:text-white '>
     <div className='flex items-center gap-x-4'>
-      <img className="stroke-purple-950 fill-purple-950" src="/src/assets/icons/logo.svg" alt="" />
+      <img className="stroke-purple-950 fill-purple-950" src="/logo.svg" alt="" />
       <h1 className='text-5xl text-purple-950 font-bold'>DO - DOing - DOne</h1>
     </div>
     <h1 className='font-raleway font-medium text-4xl px-4 max-lg:text-3xl'>

@@ -16,7 +16,7 @@ const NavBar = (props) => {
       props.setIsMenuOpen(true);
       console.log(props.isMenuOpen);
     }} className='w-10 hover:bg-gray-200 duration-1000 rounded-full p-2'>
-              <img src="/src/assets/icons/hamburger-menu-icon.svg"></img>
+              <img src="/hamburger-menu-icon.svg"></img>
     </button> 
     }
 

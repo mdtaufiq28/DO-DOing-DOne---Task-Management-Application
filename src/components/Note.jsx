@@ -23,13 +23,13 @@ const Note = ({item,triggerEditing,index,deleteNoteTarget,setDeleteNoteTarget,se
                         console.log(deleteNoteTarget);
                         setIsDeleteActionTriggered(true);
                     }}>
-                    <img className='max-w-full' src='/src/assets/icons/delete-icon.svg'></img>
+                    <img className='max-w-full' src='/delete-icon.svg'></img>
                     </button>
 
                     <button className='w-11 hover:bg-gray-100 duration-1000 p-4 rounded-full' onClick={()=>{
                         triggerEditing(item.title,item.content,item.priority,item.dueDate,item.progress,item.priorityId,item.timeStamp,index)
                     }}>
-                        <img className='max-w-full' src="/src/assets/icons/edit-icon.svg"/>
+                        <img className='max-w-full' src="/edit-icon.svg"/>
                     </button>
                 </div>
             </div>

@@ -36,10 +36,10 @@ const Menu = (props) => {
       <button onClick={()=>{
         props.setIsMenuOpen(false);
       }} className='w-12 h-12 mr-2 mt-2 self-end  hover:bg-gray-100 rounded-full duration-1000'>
-        <img className='m-auto' src="src/assets/icons/close-icon.svg"/>
+        <img className='m-auto' src="/close-icon.svg"/>
       </button>
       <div className='flex flex-col max-w-full gap-y-5 pb-4'>
-        <img src="src/assets/icons/profile-icon.svg" className='w-20 hover:opacity-50 duration-1000 cursor-pointer' />
+        <img src="/profile-icon.svg" className='w-20 hover:opacity-50 duration-1000 cursor-pointer' />
         <p>Username</p>
       </div>
 
